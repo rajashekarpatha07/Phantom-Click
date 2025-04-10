@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const cookieParser = require('cookie-parser'); // Add this
 const connectDB = require('./src/config/db.js');
 const authRoutes = require('./src/routes/authRoutes.js');
-const taskRoutes = require('./src//routes/taskRoutes.js');
+const taskRoutes = require('./src/routes/taskRoutes.js');
 const errorHandler = require('./src/utils/errorHandler.js');
 const rateLimiter = require('./src/middlewares/rateLimiter.js');
 
