@@ -56,16 +56,14 @@ npm start
 
 ## Authentication
 
-- `POST /api/auth/register` - Register a user (sets token cookie)  
-- `POST /api/auth/login` - Log in (sets token cookie)  
-- `POST /api/auth/logout` - Log out (clears token cookie)
+- `POST https://phantom-click-production.up.railway.app/api/auth/register` - Register a user (sets token cookie)  
+- `POST https://phantom-click-production.up.railway.app/api/auth/login` - Log in (sets token cookie)  
+- `POST https://phantom-click-production.up.railway.app/api/auth/logout` - Log out (clears token cookie)
 
 ## Tasks (authenticated with token cookie)
 
-- `POST /api/tasks` - Create a task  
-- `GET /api/tasks` - Get tasks (supports `?status=`, `?priority=`, `?dueDate=`, `?page=`, `?limit=`)  
-- `PUT /api/tasks/:taskId` - Update a task  
-- `DELETE /api/tasks/:taskId` - Delete a task  
-- `GET /api/tasks/analytics` - Get task analytics
-
-
+- `POST https://phantom-click-production.up.railway.app/api/tasks` - Create a task  
+- `GET https://phantom-click-production.up.railway.app/api/tasks` - Get tasks (supports `?status=`, `?priority=`, `?dueDate=`, `?page=`, `?limit=`)  
+- `PUT https://phantom-click-production.up.railway.app/api/tasks/:taskId` - Update a task  
+- `DELETE https://phantom-click-production.up.railway.app/api/tasks/:taskId` - Delete a task  
+- `GET https://phantom-click-production.up.railway.app/api/tasks/analytics` - Get task analytics
