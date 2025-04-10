@@ -29,7 +29,7 @@ A backend-heavy Task Management API built with Node.js, Express, and MongoDB, ut
 
 ### Clone the Repository:
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/rajashekarpatha07/Phantom-Click.git
 cd task-management-app
 ```
 ## Install Dependencies:
